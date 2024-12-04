@@ -65,12 +65,8 @@ h1 a:hover {
 h2 {
     display: block;
     font-size: 24px;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    border-radius: 5px;
     font-weight: bold;
-    unicode-bidi: isolate;
     background-color: lightskyblue;
     color: darkblue;
 }
@@ -93,10 +89,6 @@ h2 a:hover {
     color: darkblue;
     display: block;
     font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
     unicode-bidi: isolate;
 }
@@ -150,11 +142,10 @@ p, i.material-icons {
 
 .fa {
     display: inline-block;
-    font: normal normal normal 14px / 1 FontAwesome;
+    font: normal normal normal px / 1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+
 }
 
 #social .fa-twitter-square {
@@ -166,20 +157,13 @@ p, i.material-icons {
 }
 
 #social .fa-linkedin-square {
-    color: #0077b5;
+    color: navy
 }
 
-.fa-twitter-square:before {
-    content: "\f081";
-}
 
-.fa-facebook-square:before {
-    content: "\f082";
-}
-
-.fa-linkedin-square:before {
-    content: "\f08c";
-}
+#social .fa-github { 
+    color: black; 
+    font-size: 2rem;  }
 
 li {
     text-align: -webkit-match-parent;
@@ -187,7 +171,6 @@ li {
 
 .btn {
     font-size: 1.3rem;
-    transition: ease;
     background-color: 0,3s;
     
 }
@@ -208,3 +191,7 @@ li {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.botao-google {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
